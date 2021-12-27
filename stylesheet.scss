@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+}
+
+.main {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    // background-color: aqua;
+    li {
+        margin: 6.5rem 2rem;
+        list-style: none;
+        .one {
+            text-decoration: none;
+            color: #fff;
+            background: #c3173f;
+            border: 5px solid #7a0e27;
+            padding: 40px 80px;
+        }
+        .two {
+            text-decoration: none;
+            color: #fff;
+            background: #4687ff;
+            border: 5px solid #3568c7;
+            padding: 40px 80px;
+        }
+        .three {
+            text-decoration: none;
+            color: #fff;
+            background: #40b5fb;
+            border: 5px solid #3699d3;
+            padding: 40px 80px;
+        }
+        .four {
+            text-decoration: none;
+            color: #fff;
+            background: #cbbf77;
+            border: 5px solid #aca164;
+            padding: 40px 80px;
+        }
+        .five {
+            text-decoration: none;
+            color: #fff;
+            background: #c2a174;
+            border: 5px solid #a0855f;
+            padding: 40px 80px;
+        }
+    }
+}
+
+.right {
+    // background-color: brown;
+    li {
+        margin: 6.5rem 2rem;
+        list-style: none;
+        .one {
+            text-decoration: none;
+            color: #fff;
+            background: #4e34b9;
+            border: 5px solid #392685;
+            padding: 40px 80px;
+        }
+        .two {
+            text-decoration: none;
+            color: #fff;
+            background: #2480e3;
+            border: 5px solid #1e69b9;
+            padding: 40px 80px;
+        }
+        .three {
+            text-decoration: none;
+            color: #fff;
+            background: #8fae5e;
+            border: 5px solid #738b4b;
+            padding: 40px 80px;
+        }
+        .four {
+            text-decoration: none;
+            color: #fff;
+            background: #ccb67a;
+            border: 5px solid #99895c;
+            padding: 40px 80px;
+        }
+        .five {
+            text-decoration: none;
+            color: #fff;
+            background: #d77c81;
+            border: 5px solid #aa6265;
+            padding: 40px 80px;
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    body {
+        width: 100vw;
+    }
+    
+    .left {
+        // background-color: aqua;
+        margin-left: 3rem;
+        li {
+            margin: 3.5rem 1rem;
+            list-style: none;
+            .one {
+                text-decoration: none;
+                color: #fff;
+                background: #c3173f;
+                border: 5px solid #7a0e27;
+                padding: 20px 40px;
+            }
+            .two {
+                text-decoration: none;
+                color: #fff;
+                background: #4687ff;
+                border: 5px solid #3568c7;
+                padding: 20px 40px;
+            }
+            .three {
+                text-decoration: none;
+                color: #fff;
+                background: #40b5fb;
+                border: 5px solid #3699d3;
+                padding: 20px 40px;
+            }
+            .four {
+                text-decoration: none;
+                color: #fff;
+                background: #cbbf77;
+                border: 5px solid #aca164;
+                padding: 20px 40px;
+            }
+            .five {
+                text-decoration: none;
+                color: #fff;
+                background: #c2a174;
+                border: 5px solid #a0855f;
+                padding: 20px 40px;
+            }
+        }
+    }
+    
+    .right {
+        // background-color: brown;
+        margin-right: 3rem;
+        li {
+            margin: 3.5rem 1rem;
+            list-style: none;
+            .one {
+                text-decoration: none;
+                color: #fff;
+                background: #4e34b9;
+                border: 5px solid #392685;
+                padding: 20px 40px;
+            }
+            .two {
+                text-decoration: none;
+                color: #fff;
+                background: #2480e3;
+                border: 5px solid #1e69b9;
+                padding: 20px 40px;
+            }
+            .three {
+                text-decoration: none;
+                color: #fff;
+                background: #8fae5e;
+                border: 5px solid #738b4b;
+                padding: 20px 40px;
+            }
+            .four {
+                text-decoration: none;
+                color: #fff;
+                background: #ccb67a;
+                border: 5px solid #99895c;
+                padding: 20px 40px;
+            }
+            .five {
+                text-decoration: none;
+                color: #fff;
+                background: #d77c81;
+                border: 5px solid #aa6265;
+                padding: 20px 36.2px;
+            }
+        }
+    }
+}
